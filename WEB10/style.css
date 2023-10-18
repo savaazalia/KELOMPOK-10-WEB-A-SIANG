@@ -556,6 +556,7 @@ footer{
     margin-top: 5.5rem;
 }
 .input-form {
+	margin-top: 1rem;
     width: 300px;
     height: 40px;
     border-radius: 10px;
