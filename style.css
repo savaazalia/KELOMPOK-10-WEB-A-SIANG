@@ -58,67 +58,68 @@ body{
 
 
 /* HOME */
-    .hero{
-        min-height: 100vh;
-    }
-    .hero .container .content{
-        background: #FFF;
-        font-family: Inter;
-        margin: 9rem 4.4rem 0 4.4rem;
-        
-    }
-    .hero .container .content .com1{
-        width: 100%;
+.hero{
+    min-height: 100vh;
+}
+.hero .container .content{
+    background: #FFF;
+    font-family: Inter;
+    margin: 9rem 4.4rem 0 4.4rem;
     
-    }
-    .jenis{
-        margin-top: 3rem;
-    }
+}
+.hero .container .content .com1{
+    width: 100%;
 
-    .box{
-        display: flex;
-        
-    }
-    .card img{
-        padding-right: 1.5rem;
-        width: 80%;
-    }
-    .lihat{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        font-family: Inter;
-        font-weight: bold;
-        font-size: 1.5rem;
-        text-align: center;
-        margin-top: 5rem;
+}
+.jenis{
+    margin-top: 3rem;
+}
 
-    }
-    button{
-        border: solid 1px;
-        color: rgb(0, 0, 0);
-        padding: 10px 10px;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        width: 80%;
-        margin-top: 15px;
-        border-radius: 50px;
-        background-color: #6BC86E;
-        border-color: #05FD00;
-    }
-    button:active{
-        background-color: #64ec64;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-    .jenis-img{
-        width: 100%;
-    }
+.box{
+    display: flex;
+    
+}
+.card img{
+    padding-right: 1.5rem;
+    width: 80%;
+}
+.lihat{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+button{
+    border: solid 1px;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: #6BC86E;
+    border-color: #05FD00;
+}
+button:active{
+    background-color: #64ec64;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.jenis-img{
+    width: 100%;
+}
+
+
 /* END HOME */
-
 
 /* MASUK */
 .container1{
@@ -219,21 +220,19 @@ body{
 
 .isi_artikel{
     margin-top: 5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .judul {
   margin-top: 8rem;
-  left: 55px;
   font-size: 50px;
   display: flex;
   align-items: center;
-  width: 1248px;
   font-family: Inter;
 }
 .gambar {
-  margin-top: 3rem;
+  margin-top: 1rem;
   left: 55px;
   border-radius: 20px;
   width: 100%;
